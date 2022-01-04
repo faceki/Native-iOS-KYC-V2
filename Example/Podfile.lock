@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.5.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - KYC-iOS-Native (0.1.0):
+    - Alamofire (~> 5.0)
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - SwiftyGif
+  - MBProgressHUD (1.2.0)
+  - SwiftyGif (5.4.2)
+
+DEPENDENCIES:
+  - KYC-iOS-Native (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - SwiftyGif
+
+EXTERNAL SOURCES:
+  KYC-iOS-Native:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  KYC-iOS-Native: 5cf0fd92c2d7e86c3536249b6952518e0100be15
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SwiftyGif: dec758a9dd3d278e5a855dbf279bf062c923c387
+
+PODFILE CHECKSUM: 7b7af092b22bedf2edee9c111e1fc690d6732135
+
+COCOAPODS: 1.11.2

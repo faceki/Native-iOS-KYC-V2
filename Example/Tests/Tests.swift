@@ -1,5 +1,5 @@
 import XCTest
-import KYC-iOS-Native
+//import KYC-iOS-Native
 
 class Tests: XCTestCase {
     
