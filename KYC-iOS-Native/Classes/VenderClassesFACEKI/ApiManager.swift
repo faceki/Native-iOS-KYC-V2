@@ -16,10 +16,9 @@ class ApiManager: NSObject {
                       currentVC: UIViewController,
                       onSuccess: @escaping([String:Any]) -> Void) {
         
-//        let uuid = UUID().uuidString
-        DataManager.deviceTokken = "af7d4790-04a9-11ec-aecf-1dca4d5eaaf0"
-//        print(uuid)
-        let param:[String:Any] = ["client_id": "af7d4790-04a9-11ec-aecf-1dca4d5eaaf0",
+//        DataManager.deviceTokken = "af7d4790-04a9-11ec-aecf-1dca4d5eaaf0"
+
+        let param:[String:Any] = ["client_id": clientId,
                                   "email": email]
         print("param ",param)
         
@@ -50,7 +49,7 @@ class ApiManager: NSObject {
     func getSDKsettingsApi(currentVC: UIViewController,
                            onSuccess: @escaping([String:Any]) -> Void) {
         
-        AlamoFireWrapper.sharedInstance.GetApiHit(action: sdkSettingsUrl+"?client_id=\(DataManager.deviceTokken!)", view: currentVC.view, onSuccess: { (response) in
+        AlamoFireWrapper.sharedInstance.GetApiHit(action: sdkSettingsUrl+"?client_id=\(clientId)", view: currentVC.view, onSuccess: { (response) in
             //            print("response ",response)
             CommonFunctions.dismissProgressView(view: currentVC.view)
             switch(response.result) {

@@ -6,8 +6,9 @@
 import Foundation
 import UIKit
 
-
+var clientId = String()
 var authorizationTokken = String()
+
 //MARK:- Development URL
 let baseUrl = "https://app.faceki.com/"
 let baseUrl2 = "https://faceki.com/backend/api/"

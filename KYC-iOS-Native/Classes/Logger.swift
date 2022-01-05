@@ -9,19 +9,18 @@ import Foundation
 import UIKit
 
 public class Logger {
-    
-
-    public func printLog(){
+        
+    public func fetchClientId(setClientID : String) {
         print("Hello World")
+        clientId = setClientID
     }
     
     func privateMethod(){
         print("Private")
     }
     
-    public static func initiateSMSDK() -> UIViewController {
-//        let SMDKStoryboard = UIStoryboard(name: "SMstoryBoard", bundle: nil)
-        
+    public static func initiateSMSDK(setClientID : String) -> UIViewController {
+        clientId = setClientID
         let VC = Storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         VC.modalTransitionStyle = .crossDissolve
         VC.modalPresentationStyle = .overCurrentContext

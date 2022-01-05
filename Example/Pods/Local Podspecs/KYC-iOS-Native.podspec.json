@@ -1,6 +1,6 @@
 {
   "name": "KYC-iOS-Native",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "This library use to scan docs of user and validate KYC",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/faceki/KYC-iOS-Native",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/faceki/KYC-iOS-Native.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "swift_versions": "5.0",
   "platforms": {
