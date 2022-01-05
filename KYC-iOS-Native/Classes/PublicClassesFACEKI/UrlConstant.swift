@@ -6,6 +6,7 @@
 import Foundation
 import UIKit
 
+var clientEmail = String()
 var clientId = String()
 var authorizationTokken = String()
 

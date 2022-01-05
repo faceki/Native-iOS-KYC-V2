@@ -1,7 +1,7 @@
 PODS:
   - Alamofire (5.5.0)
   - IQKeyboardManagerSwift (6.5.9)
-  - KYC-iOS-Native (0.2.0):
+  - KYC-iOS-Native (0.3.0):
     - Alamofire (~> 5.0)
     - IQKeyboardManagerSwift
     - MBProgressHUD
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
-  KYC-iOS-Native: f6a389b411b04742663ab41565d8bee99f6c0ca0
+  KYC-iOS-Native: f5ceffbe77d136597426cde8adc8326b70631c38
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SwiftyGif: dec758a9dd3d278e5a855dbf279bf062c923c387
 

@@ -10,17 +10,13 @@ import UIKit
 
 public class Logger {
         
-    public func fetchClientId(setClientID : String) {
-        print("Hello World")
-        clientId = setClientID
-    }
-    
     func privateMethod(){
         print("Private")
     }
     
-    public static func initiateSMSDK(setClientID : String) -> UIViewController {
+    public static func initiateSMSDK(setClientID : String, userEmail: String) -> UIViewController {
         clientId = setClientID
+        clientEmail = userEmail
         let VC = Storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         VC.modalTransitionStyle = .crossDissolve
         VC.modalPresentationStyle = .overCurrentContext

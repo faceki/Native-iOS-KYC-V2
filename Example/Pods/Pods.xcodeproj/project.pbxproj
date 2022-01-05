@@ -249,7 +249,7 @@
 		03C81C2E4F38B864269423CE52B7251A /* KYC-iOS-Native.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "KYC-iOS-Native.modulemap"; sourceTree = "<group>"; };
 		06AF8E14F078E9C8B15439C2608A5C2B /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		07823442D23E12D16848C9D782CE7F23 /* Take a selfie picture.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Take a selfie picture.png"; path = "KYC-iOS-Native/Assets/Take a selfie picture.png"; sourceTree = "<group>"; };
-		07D3AD16BEB57BC71DA46E1E173B91CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		07D3AD16BEB57BC71DA46E1E173B91CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		07E76825C8E9E305701279B10C9745D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0A6D4F1410E525EFAF4887EFC75099CB /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		0F63F2232060DBAAA8F25C252EA543E6 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
@@ -353,7 +353,7 @@
 		9AA4C77A7E6E044FAE1D6554F1CB9F9C /* TaleSelfie.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TaleSelfie.png; path = "KYC-iOS-Native/Assets/TaleSelfie.png"; sourceTree = "<group>"; };
 		9B05087E195EA3384975D5C2FDEB83B4 /* Driving Front.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Driving Front.png"; path = "KYC-iOS-Native/Assets/Driving Front.png"; sourceTree = "<group>"; };
 		9C522E9144E02C97AAE303C581696BCB /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E73F339D821103655A221B11D2877F3 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		9FF194855E9A934A2007C601369B7CD5 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
 		A216BB519E338758C413D8CB721258AD /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
@@ -368,7 +368,7 @@
 		AB44ABE78B3A01A3B96D54E54DB550DB /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABA6AC0713EDF5218B21B60092957539 /* TakeSelfieVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TakeSelfieVC.swift; sourceTree = "<group>"; };
 		AC7B9C3E037AE5096E54A30F288163AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		AD6466AD69BB32C9F2A8967FD4E8A67E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD6466AD69BB32C9F2A8967FD4E8A67E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AE623B025173B909D2941ABD17752BC9 /* UIButtonCustomClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButtonCustomClass.swift; sourceTree = "<group>"; };
 		AED926BC0BD44D66E6002E7A8CEBB8FE /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		AF4362664ED698999DA6659B15D08FBD /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -424,7 +424,7 @@
 		EC68A6AED2257F1C4BD490DB121B5568 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		ECF5DF60DF89390C449F0C19ADD85BAC /* Flip Camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Flip Camera.png"; path = "KYC-iOS-Native/Assets/Flip Camera.png"; sourceTree = "<group>"; };
 		EEB90581F169F0C336886F0B84660407 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		EFA0EA58BEF9423A1BA4ED0AD5B1BC76 /* KYC-iOS-Native.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "KYC-iOS-Native.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFA0EA58BEF9423A1BA4ED0AD5B1BC76 /* KYC-iOS-Native.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "KYC-iOS-Native.podspec"; sourceTree = "<group>"; tabWidth = 2; };
 		F15AAC02F6C8E70FFEE15A94E17684F3 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		F1A4B62E3AF51CE9C78180E397873FDB /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F3594E0EE1DC3C4B92E0F71DEEB12E23 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
@@ -544,7 +544,6 @@
 				E9A6A791A5D56BC4BD5D88EB8B2A4517 /* DataManager.swift */,
 				A99615C79D830F8E374223628753B7BE /* UserData.swift */,
 			);
-			name = DataManager;
 			path = DataManager;
 			sourceTree = "<group>";
 		};
@@ -600,7 +599,6 @@
 				ABA6AC0713EDF5218B21B60092957539 /* TakeSelfieVC.swift */,
 				AB44ABE78B3A01A3B96D54E54DB550DB /* ViewController.swift */,
 			);
-			name = Controller;
 			path = Controller;
 			sourceTree = "<group>";
 		};
@@ -623,7 +621,6 @@
 				E0C49F177D27E1FC506CA99B44B09F65 /* UIViewCustomClass.swift */,
 				9C6A43BEE1527B67FA271D669D731F42 /* FontSizeClass */,
 			);
-			name = CustomClasses;
 			path = CustomClasses;
 			sourceTree = "<group>";
 		};
@@ -710,7 +707,6 @@
 				959A24B2999302CBB83409B7B69BDC06 /* IQUIViewController+Additions.swift */,
 				33B09EB1500D1C7717C53AE5A2B3C0D3 /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -751,7 +747,6 @@
 				C2B5EF52F4A69A152321F4D12116B2CF /* UIButtonFontSize.swift */,
 				7EB058278AA6C58E75D3251DCF1232B9 /* UILabelFontSize.swift */,
 			);
-			name = FontSizeClass;
 			path = FontSizeClass;
 			sourceTree = "<group>";
 		};
@@ -796,7 +791,6 @@
 				5CBEB3C05CC61BE2D45F859B5B6785BA /* Validation.swift */,
 				ECF54C6DD6E29593123BCE7F2831C4CB /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -812,7 +806,6 @@
 				C373B06D8F195AAA503EC57B1D8828A7 /* UIImageView+SwiftyGif.swift */,
 				30620AE24CD3C84F3D48AC1424ACEBA7 /* Support Files */,
 			);
-			name = SwiftyGif;
 			path = SwiftyGif;
 			sourceTree = "<group>";
 		};
@@ -850,7 +843,6 @@
 				EEB90581F169F0C336886F0B84660407 /* MBProgressHUD.m */,
 				12E987C1872D518AD5A1B42DCA485519 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -955,7 +947,6 @@
 				62B9C5C68E6C6CAAA5BB960AB7A8B412 /* DocsTableViewCell.swift */,
 				66B417D8B744D3B35A2586B3C0C9F854 /* DocsTableViewCell.xib */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -1945,8 +1936,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

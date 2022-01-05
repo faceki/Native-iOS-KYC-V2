@@ -36,7 +36,7 @@ class ViewController: BaseViewController {
     //MARK:- get User Token Api Hit
     func getUserTokenApiHit(){
         self.startLoaderGif(isLoaderStart: true)
-        ApiManager.shared.getAuthTokenApi(email: "demo@faceki.com",
+        ApiManager.shared.getAuthTokenApi(email: clientEmail,
                                         currentVC: self, onSuccess: { (response) in
                         print("get User Token Api Hit Response ",response)
                 if let token = response["token"] as? String {
