@@ -1,0 +1,60 @@
+
+/* Class = "UIButton"; normalTitle = "RETAKE"; ObjectID = "0gC-Yh-fml"; */
+"0gC-Yh-fml.normalTitle" = "RETAKE";
+
+/* Class = "UILabel"; text = "Your Identity successfully verified"; ObjectID = "3ac-xU-Hte"; */
+"3ac-xU-Hte.text" = "Your Identity successfully verified";
+
+/* Class = "UILabel"; text = "Ensure that all data on your document is visible and readable."; ObjectID = "AW3-EC-EXQ"; */
+"AW3-EC-EXQ.text" = "Ensure that all data on your document is visible and readable.";
+
+/* Class = "UILabel"; text = "Powered by"; ObjectID = "C4a-dX-F1i"; */
+"C4a-dX-F1i.text" = "Powered by";
+
+/* Class = "UILabel"; text = "Place your ID card within the frame, and make sure it's clear with no reflections"; ObjectID = "Dcb-mW-NhQ"; */
+"Dcb-mW-NhQ.text" = "Place your ID card within the frame, and make sure it's clear with no reflections";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "Ddv-BE-S46"; */
+"Ddv-BE-S46.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "SUCCESSFUL"; ObjectID = "EJ1-vO-gUl"; */
+"EJ1-vO-gUl.text" = "SUCCESSFUL";
+
+/* Class = "UILabel"; text = "extra information from dash"; ObjectID = "HTn-3G-hfv"; */
+"HTn-3G-hfv.text" = "extra information from dash";
+
+/* Class = "UILabel"; text = "Capture Image"; ObjectID = "L2v-yC-hzU"; */
+"L2v-yC-hzU.text" = "Capture Image";
+
+/* Class = "UILabel"; text = "Powered by"; ObjectID = "NQd-Sz-WXe"; */
+"NQd-Sz-WXe.text" = "Powered by";
+
+/* Class = "UILabel"; text = "Verify Your Identity"; ObjectID = "OMX-To-kjG"; */
+"OMX-To-kjG.text" = "Verify Your Identity";
+
+/* Class = "UILabel"; text = "It will only take few seconds"; ObjectID = "ONs-pP-bo3"; */
+"ONs-pP-bo3.text" = "It will only take few seconds";
+
+/* Class = "UILabel"; text = "Sacn your ID Card"; ObjectID = "Ppr-do-V7W"; */
+"Ppr-do-V7W.text" = "Sacn your ID Card";
+
+/* Class = "UIButton"; normalTitle = "Back to Home"; ObjectID = "R5D-O6-XJQ"; */
+"R5D-O6-XJQ.normalTitle" = "Back to Home";
+
+/* Class = "UIButton"; normalTitle = "CONFIRM"; ObjectID = "SqR-KD-GjP"; */
+"SqR-KD-GjP.normalTitle" = "CONFIRM";
+
+/* Class = "UILabel"; text = "Powered by"; ObjectID = "SqW-lT-INX"; */
+"SqW-lT-INX.text" = "Powered by";
+
+/* Class = "UILabel"; text = "Fit your face in the middle"; ObjectID = "Ugc-0h-yPY"; */
+"Ugc-0h-yPY.text" = "Fit your face in the middle";
+
+/* Class = "UILabel"; text = "Take a Selfie"; ObjectID = "aft-fN-nyL"; */
+"aft-fN-nyL.text" = "Take a Selfie";
+
+/* Class = "UILabel"; text = "Check Readability"; ObjectID = "iCE-xr-lxQ"; */
+"iCE-xr-lxQ.text" = "Check Readability";
+
+/* Class = "UILabel"; text = "FRONT SIDE"; ObjectID = "sSD-oQ-dyr"; */
+"sSD-oQ-dyr.text" = "FRONT SIDE";

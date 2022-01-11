@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6506A71F8C1F7925315331B2 /* Pods-KYC-iOS-Native_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC-iOS-Native_Example.release.xcconfig"; path = "Target Support Files/Pods-KYC-iOS-Native_Example/Pods-KYC-iOS-Native_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7CA3F7CCE4E92FF8FDC5EA4D /* KYC-iOS-Native.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "KYC-iOS-Native.podspec"; path = "../KYC-iOS-Native.podspec"; sourceTree = "<group>"; };
+		7CA3F7CCE4E92FF8FDC5EA4D /* KYC-iOS-Native.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "KYC-iOS-Native.podspec"; path = "../KYC-iOS-Native.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E0D619010C7A6A7CF29B3282 /* Pods-KYC-iOS-Native_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC-iOS-Native_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KYC-iOS-Native_Tests/Pods-KYC-iOS-Native_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4BA29844B26A2874E1374FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */

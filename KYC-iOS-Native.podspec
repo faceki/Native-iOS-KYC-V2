@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KYC-iOS-Native'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = 'This library use to scan docs of user and validate KYC'
 
 # This description is used to generate tags and improve search results.
