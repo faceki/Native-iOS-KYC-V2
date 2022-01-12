@@ -1,4 +1,6 @@
 # KYC-iOS-Native
+# Get Started with iOS Native documentation and steps 
+https://docs.faceki.com/mobile-sdk/native-ios-sdk 
 
 [![CI Status](https://img.shields.io/travis/faceki/KYC-iOS-Native.svg?style=flat)](https://travis-ci.org/faceki/KYC-iOS-Native)
 [![Version](https://img.shields.io/cocoapods/v/KYC-iOS-Native.svg?style=flat)](https://cocoapods.org/pods/KYC-iOS-Native)
