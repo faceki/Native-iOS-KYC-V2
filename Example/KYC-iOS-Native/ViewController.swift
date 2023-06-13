@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     @IBAction func captueACtion(_ sender: Any) {
 //        let smManagerVC = Logger.initiateSMSDK()
-        let smManagerVC = Logger.initiateSMSDK(setClientID : "af7d4790-04a9-11ec-aecf-1dca4d5eaaf0", userEmail: "demo@faceki.com")
+        let smManagerVC = Logger.initiateSMSDK(setClientID : "2uv4k940iq673msva01k76bcl9", clientSecretval: "1g62tosia3rfck633go4pp4avt8qfm5on3ga1e7dgv6vlfh4svad")
         navigationController?.pushViewController(smManagerVC, animated: true)
     }
     
@@ -29,4 +29,3 @@ class ViewController: UIViewController {
     }
 
 }
-

@@ -14,9 +14,9 @@ public class Logger {
         print("Private")
     }
     
-    public static func initiateSMSDK(setClientID : String, userEmail: String) -> UIViewController {
+    public static func initiateSMSDK(setClientID : String, clientSecretval: String) -> UIViewController {
         clientId = setClientID
-        clientEmail = userEmail
+        clientSecret = clientSecretval
         let VC = Storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         VC.modalTransitionStyle = .crossDissolve
         VC.modalPresentationStyle = .overCurrentContext

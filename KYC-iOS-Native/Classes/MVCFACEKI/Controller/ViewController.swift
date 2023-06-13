@@ -36,10 +36,13 @@ class ViewController: BaseViewController {
     //MARK:- get User Token Api Hit
     func getUserTokenApiHit(){
         self.startLoaderGif(isLoaderStart: true)
-        ApiManager.shared.getAuthTokenApi(email: clientEmail,
+        ApiManager.shared.getAuthTokenApi(clientSecret: clientSecret,
                                         currentVC: self, onSuccess: { (response) in
                         print("get User Token Api Hit Response ",response)
-                if let token = response["token"] as? String {
+                        let data = response["data"] as? [String:Any] ?? [:]
+                        
+                        print("data 1111",data["access_token"])
+                if let token = data["access_token"] as? String {
                     authorizationTokken = token
                     self.getSDKsettingsApiHit()
                 }
@@ -52,9 +55,9 @@ class ViewController: BaseViewController {
         ApiManager.shared.getSDKsettingsApi(currentVC: self, onSuccess: { (response) in
             self.startLoaderGif(isLoaderStart: false)
             print("get SDK Settings Api Response ",response)
-            let status = response["success"] as! Int
-            if status == 1 {
-                objUser.parseSDKsettingsData(responseDict: response["response"] as? Dictionary ?? [:])
+            let status = response["responseCode"] as! Int
+            if status == 0 {
+                objUser.parseSDKsettingsData(responseDict: response["data"] as? Dictionary ?? [:])
                 self.updateScanDocOrder()
             }
         })

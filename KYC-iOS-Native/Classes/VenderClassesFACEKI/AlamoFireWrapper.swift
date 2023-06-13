@@ -190,12 +190,12 @@ class AlamoFireWrapper: NSObject {
         ]
         print("headers ",headers)
         
-        let strURL : String = baseUrl2+action
+        let strURL : String = baseUrl+action
         print("strURL ",strURL)
         let urlwithPercentEscapes = strURL.addingPercentEncoding( withAllowedCharacters: CharacterSet.urlQueryAllowed)
         print("urlwithPercentEscapes", urlwithPercentEscapes as Any)
         
-        AF.request(urlwithPercentEscapes!, method: .get, headers: nil).responseJSON {
+        AF.request(urlwithPercentEscapes!, method: .get, headers: headers).responseJSON {
             (response:AFDataResponse<Any>) in
             print("API Url", baseUrl+action)
             //                print("response GetApiHit", response)

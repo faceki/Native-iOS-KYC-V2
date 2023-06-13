@@ -208,13 +208,13 @@ class DataManager{
         }
     }
     
-    static var email:String? {
+    static var clientSecret:String? {
         set {
-            UserDefaults.standard.setValue(newValue, forKey: "Email")
+            UserDefaults.standard.setValue(newValue, forKey: "clientSecret")
             UserDefaults.standard.synchronize()
         }
         get {
-            return UserDefaults.standard.string(forKey: "Email")
+            return UserDefaults.standard.string(forKey: "clientSecret")
         }
     }
     

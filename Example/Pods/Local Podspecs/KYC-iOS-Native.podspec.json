@@ -23,7 +23,7 @@
   "resource_bundles": {
     "Resources": [
       "KYC-iOS-Native/MainFACEKI.{png,storyboard,lproj,gif}",
-      "KYC-iOS-Native/Faceki-Verifing-animation2.{gif}",
+      "KYC-iOS-Native/Assets/Faceki-Verifing-animation2.{gif}",
       "KYC-iOS-Native/Assets/Scan ID front side.{png,jpg}",
       "KYC-iOS-Native/Assets/Scan ID back side.{png,jpg}",
       "KYC-iOS-Native/Assets/Take a selfie picture.{png,jpg}",

@@ -34,7 +34,7 @@
 /* Class = "UILabel"; text = "It will only take few seconds"; ObjectID = "ONs-pP-bo3"; */
 "ONs-pP-bo3.text" = " لحظات سيستغرق الأمر بضع ثواني";
 
-/* Class = "UILabel"; text = "Sacn your ID Card"; ObjectID = "Ppr-do-V7W"; */s
+/* Class = "UILabel"; text = "Sacn your ID Card"; ObjectID = "Ppr-do-V7W"; */
 "Ppr-do-V7W.text" = " صور هوتك";
 
 /* Class = "UIButton"; normalTitle = "CONFIRM"; ObjectID = "SqR-KD-GjP"; */

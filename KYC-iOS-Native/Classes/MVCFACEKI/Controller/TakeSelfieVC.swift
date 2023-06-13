@@ -383,30 +383,18 @@ extension TakeSelfieVC: AVCaptureVideoDataOutputSampleBufferDelegate {
             
             switch(response.result) {
             case .success(let value):
-                //                print("value = ",value)
                 let  dictionaryContent = value as? [String:Any] ?? [:]
                 print("kYC Verification Api Hit Response ",dictionaryContent)
+                let data = dictionaryContent["data"] as? [String:Any] ?? [:]
+                let error = data["error"] as? [String:Any] ?? [:]
+                let status = dictionaryContent["responseCode"] as? Int ?? -1
                 
-                let error = dictionaryContent["error"] as? String ?? ""
-                let status = dictionaryContent["status"] as? String ?? ""
-                let status2 = dictionaryContent["status"] as? Int ?? -1
-                
-                if status == "Failed" || status2 == 0 || error == "Authentication failed..." {
+                if status != 0  {
                     self.isSuccess = false
-                    if error == "Authentication failed..." {
-                        self.errorMsg = "Authentication failed..."
-                    }
-                    else {
-                        self.errorMsg = dictionaryContent["message"] as? String ?? ""
-                    }
+                    self.errorMsg = dictionaryContent["message"] as? String ?? ""
                 }
-            
-//                if status != "Failed" && status2 != 0  {
-//
-//                }
-//                if self.isSuccess == true {
-                    self.frontSideScanedImagesArry.remove(at: 0)
-                    self.backSideScanedImagesArry.remove(at: 0)
+                self.frontSideScanedImagesArry.remove(at: 0)
+                self.backSideScanedImagesArry.remove(at: 0)
                     if self.frontSideScanedImagesArry.count > 0 {
                         self.kycVerificationApiHit(faceImage: faceImage, frontSideImage: self.frontSideScanedImagesArry[0], backSideSideImage: self.backSideScanedImagesArry[0])
                     }

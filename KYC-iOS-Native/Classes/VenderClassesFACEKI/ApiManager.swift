@@ -12,36 +12,28 @@ class ApiManager: NSObject {
     
 
     //MARK:- get Auth token APi Function
-    func getAuthTokenApi(email: String,
+    func getAuthTokenApi(clientSecret: String,
                       currentVC: UIViewController,
                       onSuccess: @escaping([String:Any]) -> Void) {
         
-//        DataManager.deviceTokken = "af7d4790-04a9-11ec-aecf-1dca4d5eaaf0"
-
-        let param:[String:Any] = ["client_id": clientId,
-                                  "email": email]
-        print("param ",param)
-        
-        AlamoFireWrapper.sharedInstance.PostApiHit(action: getTokenUrl, param: param, view: currentVC.view, onSuccess: { (response) in
-            //            print("response ",response)
+        //print("param ",param)
+        AlamoFireWrapper.sharedInstance.GetApiHit(action: getTokenUrl+"?clientId=\(clientId)&clientSecret=\(clientSecret)", view: currentVC.view, onSuccess: { (response) in
             CommonFunctions.dismissProgressView(view: currentVC.view)
             switch(response.result) {
             case .success(let value):
-                
                 let  dictionaryContent = value as? [String:Any] ?? [:]
                 print("get Auth token Api Hit Response ",dictionaryContent)
                 onSuccess(dictionaryContent)
-                
                 break
             case .failure(_):
                 print("do nothing")
             }
             
-        }) { (error) in
+        }, onFailure: { error in
             CommonFunctions.dismissProgressView(view: currentVC.view)
             print(error.localizedDescription)
             CommonFunctions.showAlert(currentVC, message: error.localizedDescription, title: "Error!")
-        }
+        })
     }
     
     
@@ -49,8 +41,7 @@ class ApiManager: NSObject {
     func getSDKsettingsApi(currentVC: UIViewController,
                            onSuccess: @escaping([String:Any]) -> Void) {
         
-        AlamoFireWrapper.sharedInstance.GetApiHit(action: sdkSettingsUrl+"?client_id=\(clientId)", view: currentVC.view, onSuccess: { (response) in
-            //            print("response ",response)
+        AlamoFireWrapper.sharedInstance.GetApiHit(action: sdkSettingsUrl, view: currentVC.view, onSuccess: { (response) in
             CommonFunctions.dismissProgressView(view: currentVC.view)
             switch(response.result) {
             case .success(let value):
