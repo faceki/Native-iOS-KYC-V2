@@ -1,4 +1,4 @@
-# KYC-iOS-Native
+# KYC-iOS-Native-V2
 # Get Started with iOS Native documentation and steps 
 https://docs.faceki.com/mobile-sdk/native-ios-sdk 
 
